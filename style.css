@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    border: none;
+}
+
+body{
+    background-color: #382440;
+}
+
+.header-wrapper{
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    gap: 0px;
+}
+
+.logo{
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0;
+}
+
+.logo span{
+    font-weight: 990;
+    font-size: 30px;
+}
+
+.logo img{
+    width: 48px;
+}
+
+.navbar ul{
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar button{
+    border: solid 1px white;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.navbar button:hover{
+    color: black;
+    background-color: white;
+}
+
+.body-wrapper{
+    padding: 15px;
+    justify-content: center;
+}
+
+.body-intro{
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.body-intro h3{
+    font-size: 29px;
+    color: white;
+}
+
+.body-intro img{
+    width: 500px;
+    justify-content: center;
+}
+
+.body-intro button{
+    width: 200px;
+    border: solid 1px white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
